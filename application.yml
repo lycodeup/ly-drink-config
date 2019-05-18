@@ -1,0 +1,20 @@
+spring: 
+    profiles: 
+    active: 
+    - dev 
+---
+spring: 
+    profiles: dev #开发环境
+    application:  
+        name: ly-config-dev
+---
+spring: 
+    profiles: test #测试环境
+    application:  
+        name: ly-config-test
+        
+        #注意 请用UTF-8保存
+      
+ 
+
+ 
